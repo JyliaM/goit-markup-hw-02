@@ -6,35 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.scss" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"/>
 </head>
 <body>
                                 <!--HEADER-->
-        <header>
-            <nav>
-            <a href = "Logo" class = "logo">Web<span style = "color: black">Studio</span></a>
-                <ul class = "social-links">
-                    <li><a href = "">Студія</a></li>
-                    <li><a href = "portfolio.html">Портфоліо</a></li>
-                    <li><a href = "">Контакти</li></a>
-                </ul>
-            </nav>
-                <ul class = "contact">
-                    <li><a href = "mailto: info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href = "tel: +38 096 111 11 11">+38 096 111 11 11</a></li>
-                </ul>
-        </header>
+            <header>
+                    <div class = "n-d">
+                        <nav>
+                            <div class = "n">
+                                 <a href = "Logo" class = "logo">Web<span style = "color: black">Studio</span></a>    
+                                    <ul class = "social-links">
+                                            <li><a href = "">Студія</a></li>
+                                                <li><a href = "portfolio.html">Портфоліо</a></li>
+                                            <li><a href = "">Контакти</li></a>
+                                        </ul>
+                                    </div>
+                            </nav>
+                                 <ul class = "contact">
+                                    <li><a href = "mailto: info@devstudio.com">info@devstudio.com</a></li>
+                                    <li><a href = "tel: +38 096 111 11 11">+38 096 111 11 11</a></li>
+                                </ul>               
+                            </div>
+                    </header>
                                 <!--MAIN-->
         <main>
                                 <!-- I SELECTION-->
-            <section>
+            <section class = "direction-first">
                 <h1 class = "first-title">Ефективні рішення для вашого бізнесу</h1>
                     <button type = "button" class = "button">Замовити послугу</button>
             </section>
                                 <!-- II SELECTION-->
             <section>
                 <ul class = "information">
+                    <div class = "direction-inform">
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -52,6 +58,7 @@
                         <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
                 </ul>
+            </div>
                                 <!--BELOW-->
             <h2 class = "title">Чим ми займаємося</h2>
                 <ul class = "images-page-one">
@@ -65,24 +72,24 @@
             </section>
                                 <!-- III SELECTION-->
                 <section class = "selection-color">
-            <h2 class = "title">Наша команда</h2>
+            <h2 class = "title-two">Наша команда</h2>
                 <ul class = "our-team">
-                    <li>
+                    <li class = "card-our">
                         <img src=".//images/4.jpg" alt="Чоловік"/>
                             <h3>Ігор Дем'яненко</h3>
                         <p>Product Designer</p>
                     </li>
-                        <li>
+                        <li class = "card-our">
                             <img src=".//images/5.jpg" alt="Жінка"/>
                                 <h3>Ольга Рєпіна</h3>
                             <p>Frontend Developer</p>
                     </li>   
-                            <li>
+                            <li class = "card-our">
                                 <img src=".//images/6.jpg" alt="Чоловік"/>
                                     <h3>Микола Тарасов</h3>
                                 <p>Marketing</p>
                         </li>   
-                            <li>
+                            <li class = "card-our">
                                 <img src=".//images/7.jpg" alt="Чоловік"/>
                                     <h3>Михайло Єрмаков</h3>
                                 <p>UI Designer</p>
@@ -93,10 +100,10 @@
                                 <!--FOOTER-->
         <footer>
             <div class = "container">
-            <a href="logo" class = "logo">Web<span style = "color: white">Studio</span></a>
+            <a href="logo" class = "footer-logo">Web<span style = "color: white">Studio</span></a>
             <address class = "footer-text">
                     <p>м. Київ, пр-т Лесі Українки, 26</p>
-                <ul class = "contact">
+                <ul class = "contact-two">
                     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
                 </ul>
