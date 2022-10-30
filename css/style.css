@@ -71,12 +71,12 @@ h2 {
     font-style: Regular;
 }
 
-.fotext {
+.footer-text {
     text-decoration: none;
     font-style: normal;
     line-height: 1.4;
 }
-.fotext p {
+.footer-text p {
     font-size: 14px;
     color: white;
 }
