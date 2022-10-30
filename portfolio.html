@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфоліо</title>
+    <link rel="stylesheet" href="/css/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 </head>
 <body>
             <!--HEADER-->
     <header>
                 <nav>
-                <a href = "Logo">WebStudio</a>
-                    <ul>
+                <a href = "Logo" class = "logo">Web<span style = "color: black">Studio</span></a>
+                    <ul class = "social-links">
                         <li><a href = "index.html">Студія</a></li>
                         <li><a href = "">Портфоліо</a></li>
                         <li><a href = "">Контакти</li></a>
                     </ul>
                 </nav>
-                    <ul>
+                    <ul class = "contact">
                         <li><a href = "mailto: info@devstudio.com">info@devstudio.com</a></li>
                         <li><a href = "tel: +38 096 111 11 11">+38 096 111 11 11</a></li>
                     </ul>
@@ -26,16 +30,16 @@
     <main>
         <section>
     <ul>
-        <li><button type = "button">Усі</button></li>
-        <li><button type = "button">Веб-сайти</button></li>
-        <li><button type = "button">Додатки</button></li>
-        <li><button type = "button">Дизайн</button></li>
-        <li><button type = "button">Маркетинг</button></li>
+        <li><button type = "button" class = "buttons">Усі</button></li>
+        <li><button type = "button"class = "buttons">Веб-сайти</button></li>
+        <li><button type = "button"class = "buttons">Додатки</button></li>
+        <li><button type = "button"class = "buttons">Дизайн</button></li>
+        <li><button type = "button"class = "buttons">Маркетинг</button></li>
     </ul>
         </section>
             <!--II SECTION-->
         <section>
-            <ul>
+            <ul class = "information">
                 <li>
                     <!--1-->
                     <img src="./images/f1.jpg" alt="Компьютер"
@@ -104,11 +108,11 @@
 
         </main>
             <!--FOOTER-->
-        <footer>
-                <a href="logo">WebStudio</a>
-                <address>
+        <footer class = "container">
+                <a href="logo" class = "logo">>Web<span style = "color: white">Studio</span></a>
+                <address class = "fotext">
                         <p>м. Київ, пр-т Лесі Українки, 26</p>
-                    <ul>
+                    <ul class = "contact">
                         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                         <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
                     </ul>

@@ -27,50 +27,35 @@ body {
 .contact :hover {
     color: #2196F3;
 }
-.ftext {
-    font-size: 44px;
-    line-height: 60px;
-    letter-spacing: 6%;
-}
-.button {
+.buttons {
     width: 216px;
     height: 50px;
-    background-color: #2196F3;
+    background-color: #F5F4FA;
     border-radius: 4px;
     border: 0px;
     font-size: 16px;
-    color: white;
+    color: black;
     box-shadow: 0px 4px 4px 0px #00000026;
     cursor: pointer;
 }
-.information{
-    font-size: 14px;
-    line-height: 1.4;
-    font-style: Bold;
+.buttons:hover {
+    background-color: #2196F3;
+    color: white;
 }
-.information p{
+.box h3{
+    font-size: 18;
+    color: #212121;
+    line-height: 2.0;
+    font-style: bold;
+    letter-spacing: 6%;
+}
+.box p {
+    font-size: 16;
     color: #757575;
-    font-style: Regular;
-    line-height: 1.6;
+    line-height: 2.0;
+    font-style: regular;
+    letter-spacing: 3%;
 }
-h2 {
-    font-size: 36px;
-    font-style: Bold;
-    line-height: 1.6;
-}
-.selection-color {
-    background-color: #F5F4FA;
-}
-.people{
-    font-size: 16px;
-    font-style: Medium;
-    line-height: 1.2;
-}
-.people p{
-    color: #757575;
-    font-style: Regular;
-}
-
 .fotext {
     text-decoration: none;
     font-style: normal;
