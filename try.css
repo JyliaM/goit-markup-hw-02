@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+}
+
+.direction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 2px solid #EEEEEE;
+}
+.direction a {
+    padding: 30px;
+}
+.logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #2196F3;
+    font-size: 26px;
+    line-height: 31px;
+    
+    padding-left: 215px;    
+}
+.social-links {
+    list-style: none;
+    display: flex;
+    padding-right: 90px;
+
+}
+.social-links a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+
+
+    padding: 50px;
+    
+}
+.social-links :hover {
+    color: #2196F3;
+}
+.contact {
+    list-style: none;
+    display: flex;
+
+}
+.contact a{
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+
+    padding: 50px;
+}
+.contact :hover {
+    color: #2196F3;
+}
+
+.footer-logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #2196F3;
+    font-size: 26px;
+    line-height: 31px;
+
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.footer-text {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+
+    margin: 20px 215px;
+}
+
+.contact-two {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 9px;
+
+}
+.contact-two a{
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    
+    
+}
+.contact-two :hover {
+    color: #2196F3;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    
+}
+.footer-background {
+    text-decoration: none;
+    list-style: none;
+    background-color: #2F303A;
+    height: 252px;
+}
