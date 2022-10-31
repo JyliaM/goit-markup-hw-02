@@ -31,10 +31,13 @@ body {
 }
 .logo {
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    color: #2196F3;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 .social-links {
     list-style: none;
@@ -45,10 +48,11 @@ body {
 .social-links a {
     text-decoration: none;
     color: #212121;
+    font-style: normal;
     font-size: 14px;
-    font-weight: 500;
     line-height: 16px;
-
+    font-weight: 500;
+    letter-spacing: 0.02em;
 
     padding: 50px;
     
@@ -63,10 +67,12 @@ body {
 }
 .contact a{
     text-decoration: none;
-    color: #757575;
-    font-weight: 500;
     font-style: normal;
+    font-weight: 500;
     font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    letter-spacing: 0.02em;
 
     padding: 50px;
 }
@@ -76,10 +82,14 @@ body {
 
 
 .first-title {
+    font-style: normal;
+    font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
-
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
     padding: 30px;
 }
 .direction-first {
@@ -97,33 +107,57 @@ body {
     background-color: #2196F3;
     border-radius: 4px;
     border: 0px;
-    font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
     color: white;
     box-shadow: 0px 4px 4px 0px #00000026;
     cursor: pointer;
+
 }
 .direction-inform {
+    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.information {
-    list-style: none;
-    font-size: 14px;
-    line-height: 1.4;
 
+.information {
     margin: 94px 215px;
 }
-  
-.information p{
+.information h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.information p {
+    font-style: normal;
+    font-weight: 400;
     color: #757575;
-    font-weight: 400;
-    font-weight: 400;
+    font-size: 14px;
     line-height: 24px;
-   
-    padding-top: 10px;
-    padding-right: 30px;
+    letter-spacing: 0.03em;
+
+    margin-right: 30px;
+}
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 .images-page-one { 
     list-style: none;
@@ -137,19 +171,9 @@ body {
     margin: 30px;
     padding-bottom: 50px;
 }
-.title {
-    font-size: 36px;
-    font-style: Bold;
-    line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding-bottom: 20px;
-}
 .selection-color {
     background-color: #F5F4FA;
-    
+    padding-top: 94px;
 }
 .title-two {
     font-size: 36px;
@@ -158,35 +182,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 94px 50px;
+   
 }
 .our-team {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 94px;
-}
-.our-team img {
-    width: 270px;
-    height: 260px;
 
+    -bottom: 94px;
 }
-
 .our-team h3 {
-    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.2;
-
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    
     padding-bottom: 10px;
 }
 
 .our-team p {
-    color: #757575;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    
-    
+    line-height: 19px;
+    color: #757575;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+
+
 }
 .our-text-direction {
     display: flex;
@@ -208,10 +235,13 @@ body {
 }
 .footer-logo {
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    color: #2196F3;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    color: #2196F3;
+    letter-spacing: 0.03em;
 
     margin-top: 60px;
     margin-left: 215px;
@@ -219,11 +249,12 @@ body {
 .footer-text {
     text-decoration: none;
     list-style: none;
-    line-height: 1.4;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     color: white;
+    letter-spacing: 0.03em;
 
     margin: 20px 215px;
 }
@@ -236,12 +267,12 @@ body {
 }
 .contact-two a{
     text-decoration: none;
-    color: #757575;
-    font-weight: 500;
     font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-    
-    
+    color: #757575;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 .contact-two :hover {
     color: #2196F3;
@@ -260,15 +291,20 @@ body {
 }
 .second-button {
     list-style: none;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
     background-color: #F5F4FA;
     border-radius: 4px;
     border: 0px;
     color: black;
-    font-weight: 500;
     cursor: pointer;
+
     padding: 10px;
-    margin: 8px 10px; 
+    margin-right: 8px; 
 }   
 .second-button:hover {
     background-color: #2196F3;
@@ -299,30 +335,33 @@ body {
 
     margin-bottom: 94px;
 }
-.box img {
-    width: 370px; 
-    height: 294px;
-}
+
 .second-card-text {
     padding: 20px 24px;
 }
 
 .box h3{
-    font-size: 18;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
     color: #212121;
-    line-height: 2.0;
-    font-weight: bold;
-    letter-spacing: 6%;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }
 .box p {
-    font-size: 16;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
     color: #757575;
     line-height: 2.0;
-    font-weight: 400;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
+
     padding-top: 4px;
 }
 .second-card {
+    height: 404px;
+    width: 370px;
     border: 2px solid #EEEEEE;
     background: #FFFFFF;
     
