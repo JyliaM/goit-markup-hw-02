@@ -74,7 +74,7 @@ body {
     color: #757575;
     letter-spacing: 0.02em;
 
-    padding: 50px;
+    margin-right: 50px;
 }
 .contact :hover {
     color: #2196F3;
