@@ -20,7 +20,6 @@ body {
 }
 
 :root {
-    --brand-color:#2F303A;
     --brand-text: #212121;
     --brand-allocations: #757575;
 }
@@ -366,9 +365,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #757575;
     line-height: 2.0;
     letter-spacing: 0.03em;
+    color: var(--brand-allocations);
 
     padding-top: 4px;
 }
