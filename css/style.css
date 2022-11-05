@@ -16,10 +16,11 @@ time, mark, audio, video {
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #212121;
+    background-color: var(--brand-main-color);
 }
 
 :root {
+    --brand-main-color: #ffffff;
     --brand-text: #212121;
     --brand-allocations: #757575;
 }
@@ -30,6 +31,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--brand-main-color);
 
     border: 2px solid #EEEEEE;
 }
