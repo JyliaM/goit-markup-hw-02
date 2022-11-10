@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="corecting.css" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"/>
 </head>
 <body>
                                 <!--HEADER-->
-         <header>
-                <nav>
-                    <div class = "direction-header">
+         <header class = "header">
+            <div class = "container" width = "1200px">
+                <nav class = "header-direction">
                             <a href = "Logo" class = "logo">Web<span style = "color: black">Studio</span></a> 
                                 <ul class = "social-links">
                                         <li><a href = "">Студія</a></li>
@@ -23,21 +23,24 @@
                                 <ul class = "contact">
                                         <li><a href = "mailto: info@devstudio.com">info@devstudio.com</a></li>
                                         <li><a href = "tel: +38 096 111 11 11">+38 096 111 11 11</a></li>
-                                </ul>
-                    </div>                
+                                </ul>             
                 </nav>
+            </div>
         </header>
                                 <!--MAIN-->
         <main>
                                 <!-- I SELECTION-->
-            <section class = "direction-first">
-                <h1 class = "first-title">Ефективні рішення для <br> вашого бізнесу</h1>
-                    <button type ="button" class ="button">Замовити послугу</button>
+            <section class = "background">
+                <div class = "container">
+                    <h1 class = "first-title">Ефективні рішення для <br> вашого бізнесу</h1>
+                        <button type ="button" class ="button">Замовити послугу</button>
+                </div>
             </section>
                                 <!-- II SELECTION-->
 
-            <section class = "information">
-                <ul>
+            <section class = "selection">
+                <div class = "container">
+                    <ul class = "information">
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -55,7 +58,11 @@
                         <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
                 </ul>
+            </div>
+        </section>
                                 <!--BELOW-->
+        <section class = "selection">
+            <div class = "container">
             <h2 class = "title">Чим ми займаємося</h2>
                 <ul class = "images-page-one">
                     <li>
@@ -65,9 +72,11 @@
                     <li>
                         <img src = ".//images/3.jpg" alt="Підбором"/></li>
                 </ul>
-            </section>
+            </div>
+        </section>
                                 <!-- III SELECTION-->
-        <section class = "selection-color">
+        <section class = "selection">
+            <div class = "container">
             <h2 class = "title">Наша команда</h2>
                 <ul class = "our-team">
                     <li class = "card-our">
@@ -103,12 +112,14 @@
                     </div>
                 </li>   
             </ul>
+        </div>
     </section>
 
 </main>
                                 <!--FOOTER-->
-        <footer class = "footer-background" >
-            <div class = "container-second-page">
+        <footer class ="footer">
+            <div class = "container">
+                <div class = "footer-direction">
                 <a href="logo" class = "footer-logo">Web<span style = "color: white">Studio</span></a>
             <address class = "footer-text">
                 <p>м. Київ, пр-т Лесі Українки, 26</p>
@@ -117,6 +128,9 @@
                     <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
                 </ul>
         </address>
-</footer>             
+                </div>
+    </div>
+</footer>
+</div>            
 </body>
 </html>
