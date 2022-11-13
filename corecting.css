@@ -268,7 +268,6 @@ body {
 
 .footer {
     background-color: #2F303A;
-    
 }
 
 .footer-logo {
@@ -292,7 +291,7 @@ body {
     line-height: 24px;
     color: white;
     letter-spacing: 0.03em;
-
+    
     margin-top: 20px;
     margin-bottom: 60px;
 }
